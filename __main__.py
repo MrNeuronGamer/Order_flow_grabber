@@ -6,7 +6,7 @@ Data = datetime.date.today()
 days_back = 60
 dir_path = os.getcwd()
 
-Symbols = ['Si-12.19']
+Symbols = ['Si-3.20','RTS-3.20','SBRF-3.20']
 
 for symbol in Symbols:
     if not os.path.isdir(os.sep.join([dir_path] + [symbol])):
